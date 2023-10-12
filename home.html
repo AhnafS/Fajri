@@ -16,7 +16,7 @@
 
       <ul id="menu">
         <li>
-          <a href="#">Home</a>
+          <a href="home.html">Home</a>
         </li>
 
         <li>
@@ -24,7 +24,7 @@
         </li>
 
         <li>
-          <a href="#">Contact</a>
+          <a href="contact.html">Contact</a>
         </li>
       </ul>
 
@@ -39,14 +39,14 @@
       </ul>
     </nav>
 
-    <!--  -->
+    <!-- Home Banner -->
     <div id="home-banner">
       <img src="assets/thecave.jpg" alt="" />
     </div>
 
     <div id="home-message">
       <div>
-        <h2>Unique. Authentic. Handcrafted.</h2>
+        <h2 id="autotext">Unique. Authentic. Handcrafted.</h2>
         <p>
           A fusion of traditional design and contemporary elegance. Our brand
           combines the rich cultural heritage of Morocco with modern fashion to
@@ -112,24 +112,12 @@
       <form action="subscribe.php" method="post" id="footer-form">
         <div class="form-group">
           <label for="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="person@gmail.com"
-            required
-          />
+          <input type="email" id="email" name="email" required />
         </div>
 
         <div class="form-group">
-          <label for="phone">Phone Number:</label>
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            pattern="[0-9]{10}"
-            placeholder="e.g., 1234567890"
-          />
+          <label for="phone" id="test">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" />
         </div>
 
         <div class="form-group">
@@ -139,7 +127,7 @@
           <input type="radio" id="weekly" name="frequency" value="weekly" />
           <label for="weekly">Weekly</label>
           <input type="radio" id="monthly" name="frequency" value="monthly" />
-          <label> for "monthly">Monthly</label>
+          <label for="monthly">Monthly</label>
         </div>
 
         <div class="form-group">
@@ -165,7 +153,7 @@
     </div>
 
     <footer>
-      <p>&copy; 2023 Your Website Name. All Rights Reserved.</p>
+      <p>&copy; 2023 Fajri. All Rights Reserved.</p>
     </footer>
 
     <script src="home.js"></script>

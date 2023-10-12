@@ -1,0 +1,238 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100vw;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  width: 100%;
+  background-image: linear-gradient(
+    rgba(252, 252, 252, 0.5),
+    rgba(111, 107, 107, 0.5)
+  );
+}
+
+/* Contact form */
+
+.container {
+  max-width: 500px;
+  background-color: #fff;
+  padding: 3em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: xx-large;
+}
+
+.form-group {
+  margin: 10px 1em;
+}
+
+label {
+  display: inline;
+  margin-right: 5px;
+  color: #333;
+  font-size: large;
+}
+
+input[type="text"],
+textarea {
+  width: 90%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: large;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Contact Desc */
+
+#contact-desc {
+  width: 30%;
+  font-size: x-large;
+}
+
+#main-contact {
+  padding: 10em;
+  height: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Nav */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  width: 100%;
+  background-color: rgba(173, 216, 230, 0.9); /* Light blue with transparency */
+  transition: background-color 0.3s;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+#logo {
+  width: 7rem;
+  max-width: 100%;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 20%;
+}
+
+#menu a:link {
+  text-decoration: none;
+  color: #333; /* Text color for your links */
+  transition: color 0.3s;
+}
+
+#menu a:hover {
+  color: #007bff; /* Hover color for your links */
+}
+
+#menu-icons {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#menu-icons img {
+  width: 2rem;
+  max-width: 100%;
+}
+
+/* FAQ  */
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq {
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.faq.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq.active::before,
+.faq.active::after {
+  content: "\f075";
+  font-family: "Font Awesome 5 Free";
+  color: #2ecc71;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+
+.faq.active::before {
+  color: #3498db;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 35px 0 0;
+}
+
+.faq-text {
+  display: none;
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.faq-toggle:focus {
+  outline: 0;
+}
+
+.faq-toggle .fa-times {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  color: #fff;
+  display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+
+.faq.active .faq-toggle {
+  background-color: #9fa4a8;
+}
+
+#main-faq {
+  padding: 2em;
+  text-align: center;
+}
+
+#main-faq h1 {
+  margin-bottom: 2em;
+}

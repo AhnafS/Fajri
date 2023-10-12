@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Fajri</title>
+  </head>
+  <body>
+    <nav>
+      <img
+        src="https://cdn.dribbble.com/users/1694627/screenshots/3517133/screen_shot_2017-05-23_at_1.10.41_pm.png"
+        alt="Thobe logo"
+        id="logo"
+      />
+
+      <ul id="menu">
+        <li>
+          <a href="home.html">Home</a>
+        </li>
+
+        <li>
+          <a href="#">Product</a>
+        </li>
+
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <ul id="menu-icons">
+        <li>
+          <a href="#"><img src="./assets/people.png" alt="" /></a>
+        </li>
+
+        <li>
+          <a href="#"><img src="./assets/shopping-bag.png" alt="" /></a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div id="main-contact">
+        <div id="contact-desc">
+          <h1>Ensure the best experience</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Necessitatibus voluptatum veniam tempore, nostrum dignissimos
+            similique tenetur mollitia hic suscipit esse eum eligendi laborum
+            obcaecati quaerat aliquam assumenda laudantium saepe optio.
+          </p>
+        </div>
+        <div class="container">
+          <h2>Contact Me</h2>
+          <form action="" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label>Gender:</label>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <input
+                type="checkbox"
+                id="subscribe"
+                name="subscribe"
+                value="yes"
+              />
+              <label for="subscribe">Subscribe to our newsletter</label>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="main-faq">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-container">
+          <div class="faq active">
+            <h3 class="faq-title">Why shouldn't we trust atoms?</h3>
+
+            <p class="faq-text">They make up everything</p>
+
+            <button class="faq-toggle">
+              <img src="assets/switches.png" alt="" style="width: 30px" />
+            </button>
+          </div>
+
+          <div class="faq">
+            <h3 class="faq-title">
+              What do you call someone with no body and no nose?
+            </h3>
+            <p class="faq-text">Nobody knows.</p>
+            <button class="faq-toggle">
+              <img src="assets/switches.png" alt="" style="width: 30px" />
+            </button>
+          </div>
+
+          <div class="faq">
+            <h3 class="faq-title">
+              What's the object-oriented way to become wealthy?
+            </h3>
+            <p class="faq-text">Inheritance.</p>
+            <button class="faq-toggle">
+              <img src="assets/switches.png" alt="" style="width: 30px" />
+            </button>
+          </div>
+
+          <div class="faq">
+            <h3 class="faq-title">
+              How many tickles does it take to tickle an octopus?
+            </h3>
+            <p class="faq-text">Ten-tickles!</p>
+            <button class="faq-toggle">
+              <img src="assets/switches.png" alt="" style="width: 30px" />
+            </button>
+          </div>
+
+          <div class="faq">
+            <h3 class="faq-title">What is: 1 + 1?</h3>
+            <p class="faq-text">Depends on who are you asking.</p>
+            <button class="faq-toggle">
+              <img src="assets/switches.png" alt="" style="width: 30px" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="contact.js"></script>
+  </body>
+</html>
