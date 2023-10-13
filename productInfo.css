@@ -1,0 +1,71 @@
+/* Product Info */
+
+#product-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6em;
+}
+
+.product-image {
+  height: 50%;
+  width: 40%;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.product-desc {
+  width: 40%;
+  padding: 2rem;
+  font-size: x-large;
+  text-align: center;
+}
+
+/* button */
+.button-12 {
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  background: #6e6d70;
+
+  color: #dfdedf;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.button-12:focus {
+  outline: 0;
+}
+
+/* Collapsable */
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+  text-align: center;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}

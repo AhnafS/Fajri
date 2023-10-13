@@ -31,7 +31,7 @@ window.addEventListener("scroll", function () {
 // Auto Text
 
 const textEl = document.getElementById("autotext");
-const text = "Unique. Authentic. Handcrafted";
+const text = "Unique. Authentic. Handcrafted.";
 let idx = 1;
 let speed = 300 / 2;
 
