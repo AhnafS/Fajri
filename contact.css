@@ -73,16 +73,18 @@ input[type="submit"]:hover {
 /* Contact Desc */
 
 #contact-desc {
-  width: 30%;
+  width: 50%;
   font-size: x-large;
+  text-align: center;
 }
 
 #main-contact {
-  padding: 10em;
+  padding: 5em;
   height: 75%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /* Nav */
@@ -235,4 +237,14 @@ nav {
 
 #main-faq h1 {
   margin-bottom: 2em;
+}
+
+/* Footer */
+footer {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(21, 20, 20);
+  color: rgb(227, 221, 221);
 }
