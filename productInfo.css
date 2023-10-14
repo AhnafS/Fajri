@@ -65,7 +65,35 @@
 .content {
   padding: 0 18px;
   max-height: 0;
-  overflow: hidden;
+  overflow: scroll;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #dbd5d5;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+  background-color: #c5bbbb;
 }

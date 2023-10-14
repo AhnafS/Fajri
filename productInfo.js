@@ -11,6 +11,16 @@ document.querySelector(
   ".product-price h2"
 ).innerHTML = `Price: $${product.price}`;
 
+// Add to cart
+const addToCartButton = document.querySelector("#addToCartButton");
+
+addToCartButton.addEventListener("click", () => {
+  const cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+  cartItems.push(product);
+  localStorage.setItem("cartItems", JSON.stringify(cartItems));
+  alert("Added to cart!");
+});
+
 // Collapasable
 
 let coll = document.getElementsByClassName("collapsible");
