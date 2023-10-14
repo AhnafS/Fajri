@@ -73,14 +73,14 @@ const allProducts = [
     id: 10,
     name: "Royal Ocean Under Piece",
     price: 88.0,
-    desc: "An Exclusive Maghribi piece. Featuring a White Zipped Under Piece made from the finest quality paired with Navy Blue intricate embroidery. A true fashion statement, made for Royalty. \nThe Royal Ocean Under Piece can be worn on its own, or paired with the Royal Ocean Over Piece. ",
+    desc: "An Exclusive Fajri piece. Featuring a White Zipped Under Piece made from the finest quality paired with Navy Blue intricate embroidery. A true fashion statement, made for Royalty. \nThe Royal Ocean Under Piece can be worn on its own, or paired with the Royal Ocean Over Piece. ",
     image: "assets/OMJ5985.webp",
   },
   {
     id: 10,
     name: "Royal Dusk",
     price: 88.0,
-    desc: "An Exclusive Maghribi piece. Featuring a Burgundy see-through Over Piece made from the finest quality paired with intricate embroidery. A true fashion statement, made for Royalty. \nPlease Note: The Under Piece must be purchased separately here. This listing is only for the Royal Dusk over thobe.",
+    desc: "An Exclusive Fajri piece. Featuring a Burgundy see-through Over Piece made from the finest quality paired with intricate embroidery. A true fashion statement, made for Royalty. \nPlease Note: The Under Piece must be purchased separately here. This listing is only for the Royal Dusk over thobe.",
     image: "assets/OMJ5906.webp",
   },
 ];
