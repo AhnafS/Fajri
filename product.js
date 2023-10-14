@@ -16,7 +16,7 @@ const makeProductCard = (product) => {
         <div class="product-bottom-details">
           <div class="product-price">$${product.price}</div>
           <div class="product-links">
-            <button class="button-12" role="button">Add to cart</button>
+            <a href="productInfo.html?id=${product.id}"><button class="button-12" role="button">View Info</button></a>
           </div>
         </div>
       </div>
@@ -26,8 +26,7 @@ const makeProductCard = (product) => {
 
 for (let i = 0; i < allProducts.length; i++) {
   const newProduct = makeProductCard(allProducts[i]);
-  console.log(newProduct);
-  if (i < allProducts.length / 3) {
+  if (i < allProducts.length / 5) {
     productElement.prepend(newProduct);
   } else {
     productElement.appendChild(newProduct);
