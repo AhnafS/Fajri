@@ -63,7 +63,7 @@ const testimonials = [
   },
   {
     name: "Sazid Omi",
-    position: "Graphic Designer",
+    position: "Businessman",
     photo: "assets/1690416242903.jpg",
     text: "As a businessman, I appreciate the elegant and professional look of the thobes from this company. They are perfect for meetings and formal events, allowing me to stay cool and comfortable even in warm offices.",
   },
