@@ -44,6 +44,7 @@
   margin: 10px;
   position: relative;
   transition: flex 0.7s ease-in;
+  overflow: scroll;
 }
 
 .panel h3 {
