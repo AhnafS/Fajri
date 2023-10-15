@@ -58,19 +58,13 @@ const testimonials = [
   {
     name: "Arib Mahboob",
     position: "Data Entry",
-    photo: "assets/1689558783383.jpg",
+    photo: "assets/1674253292689.jpg",
     text: "I appreciate that this thobe company uses natural, breathable fabrics that are ideal for our hot climate. The thobes are lightweight yet durable. I receive many compliments whenever I wear them.",
-  },
-  {
-    name: "Renee Sims",
-    position: "Receptionist",
-    photo: "https://randomuser.me/api/portraits/women/65.jpg",
-    text: "I wore one of these elegant thobes to my brother's wedding in Dubai last year. I received so many compliments from family who were impressed by the fine details and intricate embroidery.",
   },
   {
     name: "Sazid Omi",
     position: "Graphic Designer",
-    photo: "assets/1690416242903",
+    photo: "assets/1690416242903.jpg",
     text: "As a businessman, I appreciate the elegant and professional look of the thobes from this company. They are perfect for meetings and formal events, allowing me to stay cool and comfortable even in warm offices.",
   },
   {
