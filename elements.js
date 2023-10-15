@@ -112,7 +112,10 @@ loginContainer.innerHTML = `
           <label>Password</label>
         </div>
 
-        <button class="btn">Login</button>
+        <label id="rememberMe"> Remember me </label>
+        <input type="checkbox" id="rememberMe" name="rememberMe" value="rememberMe">
+
+        <button class="btn" style="margin-top: 10px;">Login</button>
 
         <p class="text">Don't have an account? <a href="#">Register</a> </p>
       </form>

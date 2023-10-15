@@ -41,6 +41,7 @@ nav h1 {
   padding-left: 0px;
   margin-left: 0px;
   font-size: x-large;
+  flex-wrap: wrap;
 }
 
 #menu a:link {
