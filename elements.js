@@ -34,7 +34,53 @@ document.body.prepend(nav);
 
 let footer = document.createElement("footer");
 footer.innerHTML = `
-      <p>&copy; 2023 Fajri. All Rights Reserved. Developed by Ahnaf Shamim | Ahnaf Hamim | Sulaiman Zohair</p>
+      <p>
+        &copy; 2023 Fajri. All Rights Reserved. Developed by Ahnaf Shamim | Ahnaf Hamim | Sulaiman Zohair
+      </p>
+      <div id="newsletter">
+        <form action="subscribe.php" method="post" id="footer-form">
+        <h1>Join the Fajri Newsletter</h1>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone" id="test">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" />
+        </div>
+
+        <div class="form-group">
+          <label>Frequency:</label>
+          <input type="radio" id="daily" name="frequency" value="daily" />
+          <label for="daily">Daily</label>
+          <input type="radio" id="weekly" name="frequency" value="weekly" />
+          <label for="weekly">Weekly</label>
+          <input type="radio" id="monthly" name="frequency" value="monthly" />
+          <label for="monthly">Monthly</label>
+        </div>
+
+        <div class="form-group">
+          <label>Receive via:</label>
+          <input
+            type="checkbox"
+            id="emailCheckbox"
+            name="receiveVia"
+            value="email"
+          />
+          <label for="emailCheckbox">Email</label>
+          <input
+            type="checkbox"
+            id="phoneCheckbox"
+            name="receiveVia"
+            value="phone"
+          />
+          <label for="phoneCheckbox">Phone</label>
+        </div>
+
+        <input type="submit" value="Subscribe" />
+      </form>
+    </div>
 `;
 document.body.appendChild(footer);
 
